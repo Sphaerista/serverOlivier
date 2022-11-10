@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left_side">
+        <div class="left_border"></div>
+        <div class="text_container">
+          <div class="text_section">
+            <div class="text">WASHER</div>
+          </div>
+          <div class="text_section">
+            <div class="text text_bold">WASHER</div>
+          </div>
+          <div class="text_section">
+            <div class="text text_bold">WASHER</div>
+          </div>
+          <div class="text_section">
+            <div class="text">WASHER</div>
+          </div>
+        </div>
+        <div class="right_border"></div>
+      </div>
+
+      <!-- center -->
+      <div class="central">
+        <div class="main_title">
+          <p class="main_title_text">MONEY</p>
+          <p class="main_title_text_bold">WASHER</p>
+        </div>
+        <div class="quote">
+          Description about update are here in <br />
+          few good cute words for our players should <br />
+          be displayed there, use it whatever you like its <br />
+          fine my friend, hehe keke
+        </div>
+        <div class="washer_menu">
+          <div class="washer_menu_title">WASHER MONEY</div>
+          <div class="amount_of_cash">
+            <div class="amount_of_cash_left">
+              <div class="img"></div>
+              <p>Amount of cash</p>
+            </div>
+            <div class="amount_number amount_number_input">
+              <div id="dollar_sign">$</div>
+              <input
+                class="input_value"
+                type="number"
+                placeholder="0"
+                onchange="getCash(this.value)"
+                onKeyPress="if(this.value.length==10) return false;"
+              />
+            </div>
+          </div>
+          <div class="amount_of_cash">
+            <div class="amount_of_cash_left">
+              <div class="img"></div>
+              <p>You gets cash</p>
+            </div>
+            <div class="amount_number calculated_amount">
+              <div id="dollar_sign">$</div>
+              <div id="output_value"></div>
+            </div>
+          </div>
+          <button class="btn btn_accept">Accept washing</button>
+        </div>
+        <div class="percentage">
+          <div class="circle-wrap">
+            <div class="circle">
+              <div class="mask full">
+                <div class="fill"></div>
+              </div>
+              <div class="inside-circle">
+                <div class="percentage_text">95%</div>
+                <div class="progress_text">PROGRESS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn_quit_section">
+          <button class="btn btn_quit">Quit washing</button>
+        </div>
+      </div>
+      <!-- center -->
+
+      <div class="right_side">
+        <div class="left_border"></div>
+        <div class="text_container">
+          <div class="text_section">
+            <div class="text">WASHER</div>
+          </div>
+          <div class="text_section">
+            <div class="text text_bold">WASHER</div>
+          </div>
+          <div class="text_section">
+            <div class="text text_bold">WASHER</div>
+          </div>
+          <div class="text_section">
+            <div class="text">WASHER</div>
+          </div>
+        </div>
+        <div class="right_border"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
